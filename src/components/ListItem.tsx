@@ -16,7 +16,7 @@ export const ListItem = ({item}: itemProps) => {
 		formattedPrice = `${item.price}${item.currency_code}`
 	}
 
-	const actualClass : string = item.quantity <= 10 ? 'level-low': item.quantity <= 20 ? 'level-medium' : item.quantity > 20 ? 'level-high' : '';
+	const actualClass : string = item.quantity && item.quantity <= 10 ? 'level-low': item.quantity && item.quantity <= 20 ? 'level-medium' : item.quantity && item.quantity > 20 ? 'level-high' : '';
 
   return (
     <div>
