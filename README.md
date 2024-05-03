@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/xnlwgukur2yic692?svg=true)](https://ci.appveyor.com/project/EvgeniyPryanichnikov/ra-listing)
 Список предложений
 ===
 
